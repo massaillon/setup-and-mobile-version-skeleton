@@ -1,6 +1,6 @@
 Project Name
 
-    Hello Microverse
+    Setup and Mobile Version Skeleton
 
 Built With
 
@@ -9,11 +9,12 @@ Built With
 
 Usage
 
-This is my first project in Microverse program.This project aim at practicing the below :
+This is my second project in Microverse program.This project aim at practicing the below :
 
-1)Linters
-2)git and github professional best practices
-
+- Parsing a Figma design to create a UI
+- Using Flexbox to place elements in the page.
+- Building a personal portfolio site.
+- Make use of images and backgrounds to enhance the look of the website
 
 👤 Author
 
