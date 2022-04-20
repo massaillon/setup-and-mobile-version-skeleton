@@ -1,4 +1,33 @@
-h1 {
-  font-weight: bold;
-  color: blueviolet;
+/*I start styling from the Root*/
+
+body{
+  /*The background below is included for seeing the layout on browser*/
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+/*style the first child of the Root*/
+
+#Header-background{
+  flex: 1;
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  padding: 2px;
+  
+/*The background below is included for seeing the layout on browser*/
+background-color: rgb(140, 236, 240);
+}
+
+/*style  children of the Header-background*/
+#header-container{
+flex: 1;
+margin: 2%;
+background-color: beige;
+}
+header{
+flex: 3;
+background-color:rgb(213, 196, 230);
 }
