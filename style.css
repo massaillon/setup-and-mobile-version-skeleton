@@ -10,6 +10,8 @@
 
 /* style the first child of the Root */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+
 #header-container {
   display: flex;
   justify-content: space-evenly;
@@ -22,13 +24,18 @@
   /* background-color: beige; */
 }
 
+.Mobile-menu {
+  width: 30px;
+  height: 25px;
+}
+
 .logo-container {
   flex: 1;
   flex-direction: column;
   color: #6070ff;
   display: flex;
   justify-content: left;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -52,12 +59,12 @@ i {
   color: #6070ff;
 }
 
-#header-background {
+#Header-background {
   width: 375px;
   height: 718px;
   left: 0;
   top: 0;
-  background-image: url(../setup-and-mobile-version-skeleton/images/header-shapes\ mobile.png);
+  background-image: url("../setup-and-mobile-version-skeleton/images/header-shapes\ mobile.png");
   background-repeat: no-repeat;
 }
 
@@ -77,7 +84,7 @@ i {
 .headline-intro {
   flex: 1;
   color: #172b4d;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -86,7 +93,7 @@ i {
 
 .intro-desc-sumary {
   flex: 1;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -109,7 +116,7 @@ i {
   flex: 1;
   display: flex;
   justify-content: space-between;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
