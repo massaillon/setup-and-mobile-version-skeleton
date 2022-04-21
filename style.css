@@ -1,4 +1,141 @@
-h1 {
-  font-weight: bold;
-  color: blueviolet;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+
+/* body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+#header-container {
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 44px;
+  bottom: 0;
+
+  /* background-color: beige; */
+}
+
+.Mobile-menu {
+  width: 30px;
+  height: 25px;
+}
+
+.logo-container {
+  flex: 1;
+  flex-direction: column;
+  color: #6070ff;
+  display: flex;
+  justify-content: left;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  padding-left: 24px;
+}
+
+nav {
+  display: flex;
+  flex: 1;
+  justify-content: right;
+  font-size: 15px;
+  font-weight: 500;
+  color: #344563;
+
+  /* background-color: aqua; */
+  padding-right: 24px;
+}
+
+i {
+  color: #6070ff;
+}
+
+#Header-background {
+  width: 375px;
+  height: 718px;
+  left: 0;
+  top: 0;
+  background-image: url("../setup-and-mobile-version-skeleton/images/header-shapes\ mobile.png");
+  background-repeat: no-repeat;
+}
+
+.headline {
+  display: flex;
+  margin: 30% 10% 1% 10%;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.intro-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.headline-intro {
+  flex: 1;
+  color: #172b4d;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 52px;
+}
+
+.intro-desc-sumary {
+  flex: 1;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-top: -10%;
+}
+
+.social-area {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  margin-top: 5%;
+  margin-bottom: 40%;
+
+  /* background-color: cadetblue; */
+}
+
+.social-network {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  color: #7f8cff;
+
+  /* width: 220px; */
+}
+
+.social-icon {
+  flex: 1;
+  margin-top: 1%;
+  display: flex;
+  justify-content: left;
+  gap: 15px;
+
+  /* background-color: cadetblue; */
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5px;
+
+  /* background-color: chocolate; */
+  gap: 10px;
 }
