@@ -10,31 +10,30 @@
 
 /* style the first child of the Root */
 
-
 #header-container {
   display: flex;
   justify-content: space-evenly;
   position: absolute;
-  left: 0px;
-  right: 0px;
+  left: 0;
+  right: 0;
   top: 44px;
-  bottom: 0px;
+  bottom: 0;
 
-  /*background-color: beige;*/
+  /* background-color: beige; */
 }
 
 .logo-container {
-flex: 1;
-flex-direction: column;
-color: #6070FF;
-display: flex;
-justify-content: left;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 20px;
-padding-left: 24px;
+  flex: 1;
+  flex-direction: column;
+  color: #6070ff;
+  display: flex;
+  justify-content: left;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  padding-left: 24px;
 }
 
 nav {
@@ -44,76 +43,86 @@ nav {
   font-size: 15px;
   font-weight: 500;
   color: #344563;
-  /*background-color: aqua;*/
+
+  /* background-color: aqua; */
   padding-right: 24px;
 }
 
-i{
-  color:#6070FF; ;
+i {
+  color: #6070ff;
 }
-#header-background{
+
+#header-background {
   width: 375px;
-height: 718px;
-left: 0px;
-top: 0px;
+  height: 718px;
+  left: 0;
+  top: 0;
+  background-image: url(../setup-and-mobile-version-skeleton/images/header-shapes\ mobile.png);
+  background-repeat: no-repeat;
 }
-.headline{
+
+.headline {
   display: flex;
-  margin:30% 10% 1% 10%;
+  margin: 30% 10% 1% 10%;
   flex-direction: column;
   align-content: space-between;
 }
-.intro-container{
+
+.intro-container {
   flex: 1;
   display: flex;
   flex-direction: column;
+}
 
-}
-.headline-intro{
+.headline-intro {
   flex: 1;
-  color:#172B4D;
+  color: #172b4d;
   font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
 }
-.intro-desc-sumary{
-flex: 1;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #344563;
-margin-top: -10%;
+
+.intro-desc-sumary {
+  flex: 1;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-top: -10%;
 }
-.social-area{
+
+.social-area {
   display: flex;
   flex-direction: column;
   align-content: space-between;
   margin-top: 5%;
-  margin-bottom: 10%;
-  /*background-color: cadetblue;*/
+  margin-bottom: 40%;
+
+  /* background-color: cadetblue; */
 }
-.social-network{
+
+.social-network {
   flex: 1;
   display: flex;
   justify-content: space-between;
   font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-color: #7F8CFF;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  color: #7f8cff;
 }
-.social-icon{
+
+.social-icon {
   flex: 1;
+  margin-top: 3%;
   display: flex;
-  justify-content: space-between;
-  background-color: cadetblue;
-  gap: 5%;
- 
+  justify-content: left;
+  gap: 15px;
 
+  /* background-color: cadetblue; */
 }
-
