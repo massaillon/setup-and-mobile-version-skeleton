@@ -53,8 +53,8 @@ i {
 }
 
 #Header-background {
-  width: 375px;
-  height: 718px;
+  width: 400px;
+  height: 600px;
   left: 0;
   top: 0;
   background-image: url("../setup-and-mobile-version-skeleton/images/header-shapes\ mobile.png");
@@ -142,4 +142,5 @@ ul {
 
 a {
   text-decoration: none;
+  color: #6070ff;
 }
