@@ -1,33 +1,119 @@
-/*I start styling from the Root*/
+/* I start styling from the Root */
 
-body{
-  /*The background below is included for seeing the layout on browser*/
-  background-color: #FFFFFF;
+/* body{
+  /*The background below is included for seeing the layout on browser */
+
+/* background-color: #FFFFFF;
+  display: block;
+  position: absolute;
+} */
+
+/* style the first child of the Root */
+
+
+#header-container {
   display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 44px;
+  bottom: 0px;
+
+  /*background-color: beige;*/
+}
+
+.logo-container {
+flex: 1;
+flex-direction: column;
+color: #6070FF;
+display: flex;
+justify-content: left;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+padding-left: 24px;
+}
+
+nav {
+  display: flex;
+  flex: 1;
+  justify-content: right;
+  font-size: 15px;
+  font-weight: 500;
+  color: #344563;
+  /*background-color: aqua;*/
+  padding-right: 24px;
+}
+
+i{
+  color:#6070FF; ;
+}
+#header-background{
+  width: 375px;
+height: 718px;
+left: 0px;
+top: 0px;
+}
+.headline{
+  display: flex;
+  margin:30% 10% 1% 10%;
   flex-direction: column;
   align-content: space-between;
 }
-/*style the first child of the Root*/
-
-#Header-background{
+.intro-container{
   flex: 1;
-  margin: 1%;
   display: flex;
   flex-direction: column;
-  align-content: space-around;
-  padding: 2px;
-  
-/*The background below is included for seeing the layout on browser*/
-background-color: rgb(140, 236, 240);
+
+}
+.headline-intro{
+  flex: 1;
+  color:#172B4D;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+}
+.intro-desc-sumary{
+flex: 1;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #344563;
+margin-top: -10%;
+}
+.social-area{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  /*background-color: cadetblue;*/
+}
+.social-network{
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #7F8CFF;
+}
+.social-icon{
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  background-color: cadetblue;
+  gap: 5%;
+ 
+
 }
 
-/*style  children of the Header-background*/
-#header-container{
-flex: 1;
-margin: 2%;
-background-color: beige;
-}
-header{
-flex: 3;
-background-color:rgb(213, 196, 230);
-}
