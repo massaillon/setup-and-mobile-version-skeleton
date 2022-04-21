@@ -139,3 +139,7 @@ ul {
   /* background-color: chocolate; */
   gap: 10px;
 }
+
+a {
+  text-decoration: none;
+}
