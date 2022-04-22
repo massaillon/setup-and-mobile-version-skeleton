@@ -109,8 +109,6 @@ i {
   flex-direction: column;
   align-content: space-between;
   margin-top: 5%;
-  margin-bottom: 40%;
-
   /* background-color: cadetblue; */
 }
 
@@ -345,4 +343,34 @@ a {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
+}
+.container-about{
+  display: flex;
+  flex-direction: column;
+  margin: 30% 10% 1% 10%;
+  gap: 10px;
+}
+.About-Myself{
+  flex: 1;
+  color: #172b4d;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  position: static;
+}
+.view-resume{
+  display: flex;
+  /* background-color: magenta; */
+  border: 1px solid #396df2;
+  flex-direction: column;
+  height: 50px;
+  width: 150px;
+  margin-right: 140px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  border-radius: 16px;
+  justify-content: center;
+  align-items: center;
 }
