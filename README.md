@@ -11,12 +11,14 @@ Prerequisites
 
     * For this project, you should use the HTML&CSS linter
 
-    * The 2 sections you need to build for this project are:
+    * The 4 sections you need to build for this project are:
         
         - the toolbar section
         - the headline section
+        - works section
+        - about myself section
 
-        - In order to lay out the elements on the page we should use Flexbox in all 2 sections.
+        - In order to lay out the elements on the page we should use Flexbox in all 2 first sections and combine CSS grid and flexbox for the other 2 sections.
 
         - We don't need to implement any functionality that requires JavaScript, like opening the menu or creating dropdowns.
 
@@ -50,10 +52,11 @@ Setup
     
 Usage
 
-This is my second project in Microverse program.This project aim at practicing the below :
+This is my Third project in Microverse program.This project aim at practicing the below :
 
 - Parsing a Figma design to create a UI
-- Using Flexbox to place elements in the page.
+- Using Flexbox to place elements in the page
+- Use CSS Grid in the main container that contains all of the cards
 - Building a personal portfolio site.
 - Make use of images and backgrounds to enhance the look of the website
 
