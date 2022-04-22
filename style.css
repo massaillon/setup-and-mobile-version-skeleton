@@ -109,6 +109,7 @@ i {
   flex-direction: column;
   align-content: space-between;
   margin-top: 5%;
+
   /* background-color: cadetblue; */
 }
 
@@ -344,13 +345,15 @@ a {
   font-size: 17px;
   line-height: 24px;
 }
-.container-about{
+
+.container-about {
   display: flex;
   flex-direction: column;
   margin: 30% 10% 1% 10%;
   gap: 10px;
 }
-.About-Myself{
+
+.About-Myself {
   flex: 1;
   color: #172b4d;
   font-family: 'Poppins', sans-serif;
@@ -360,8 +363,10 @@ a {
   line-height: 52px;
   position: static;
 }
-.view-resume{
+
+.view-resume {
   display: flex;
+
   /* background-color: magenta; */
   border: 1px solid #396df2;
   flex-direction: column;
