@@ -34,7 +34,7 @@ Setup
         2 - Copy ".hintrc to the root directory of your project"
         3 - Do not make any changes in config files
         4 - Run "npx hint ." to run the HTML linter for a check
-        5 - Fix validation errors.
+        5 - Fix validation errors
 
 
     
