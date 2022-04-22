@@ -194,6 +194,36 @@ a {
   /* background-position: center; */
 }
 
+.slider-work-2 {
+  position: static;
+  margin: 15px 20px 1px 20px;
+  width: 295px;
+  height: 220px;
+  border-radius: 8px;
+  background: url(../setup-and-mobile-version-skeleton/images/Card\ Work-2.png);
+  background-repeat: no-repeat;
+}
+
+.slider-work-3 {
+  position: static;
+  margin: 15px 20px 1px 20px;
+  width: 295px;
+  height: 220px;
+  border-radius: 8px;
+  background: url(../setup-and-mobile-version-skeleton/images/Card\ Works-3.png);
+  background-repeat: no-repeat;
+}
+
+.slider-work-4 {
+  position: static;
+  margin: 15px 20px 1px 20px;
+  width: 295px;
+  height: 220px;
+  border-radius: 8px;
+  background: url(../setup-and-mobile-version-skeleton/images/Card\ Work-4.png);
+  background-repeat: no-repeat;
+}
+
 .title-work-1 {
   /* border:1px solid lightseagreen; */
   color: #172b4d;
