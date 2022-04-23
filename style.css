@@ -226,7 +226,7 @@ a {
 .title-work-1 {
   /* border:1px solid lightseagreen; */
   color: #172b4d;
-  width: 295px;
+  width: 294px;
   height: auto;
   margin: 1px 0;
   left: 0;
@@ -378,4 +378,108 @@ a {
   border-radius: 16px;
   justify-content: center;
   align-items: center;
+}
+
+.lang-select {
+  display: flex;
+
+  /* border: 1px solid red; */
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000;
+  height: 24px;
+  left: 12px;
+  right: 78px;
+  margin-left: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  justify-content: space-between;
+}
+
+.language-label {
+  flex: 3;
+
+  /* border: 1px solid blue; */
+}
+
+.lang-arrow-button {
+  flex: 1;
+  display: flex;
+
+  /* border: 1px solid blueviolet; */
+}
+
+.lang-box-container {
+  display: flex;
+  flex-direction: column;
+
+  /* border: 1px solid blue; */
+  height: 250px;
+  margin-top: 10px;
+  align-content: space-between;
+  align-items: center;
+  padding: 5px;
+  gap: 10px;
+}
+
+.lang-box {
+  flex: 1;
+  display: flex;
+
+  /* border: 1px solid blueviolet; */
+  position: static;
+  width: 303px;
+  height: 66.72px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin-top: 5px;
+  gap: 5px;
+}
+
+.lang-logo-js {
+  flex: 1;
+
+  /* border: 1px solid blueviolet; */
+  width: 48px;
+  height: 48px;
+  align-self: center;
+  background-image: url(../setup-and-mobile-version-skeleton/images/JavaSript.png);
+  background-repeat: no-repeat;
+  padding: 2px -8px 2px 5px;
+}
+
+.lang-logo-html {
+  flex: 1;
+  align-self: center;
+
+  /* border: 1px solid blueviolet; */
+  width: 48px;
+  height: 48px;
+  background-image: url(../setup-and-mobile-version-skeleton/images/HTML.png);
+  background-repeat: no-repeat;
+}
+
+.lang-logo-css {
+  flex: 1;
+  align-self: center;
+
+  /* border: 1px solid blueviolet; */
+  width: 48px;
+  height: 48px;
+  background-image: url(../setup-and-mobile-version-skeleton/images/CSS.png);
+  background-repeat: no-repeat;
+}
+
+.lang-label {
+  flex: 4;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 20px;
+  color: #253858;
+  display: flex;
+  align-items: center;
+
+  /* border: 1px solid burlywood; */
 }
