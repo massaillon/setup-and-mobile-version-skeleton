@@ -380,7 +380,9 @@ a {
   align-items: center;
 }
 
-.lang-select {
+.lang-select,
+.framework-select,
+.skills-select {
   display: flex;
 
   /* border: 1px solid red; */
@@ -482,4 +484,12 @@ a {
   align-items: center;
 
   /* border: 1px solid burlywood; */
+}
+
+.framework-select,
+.skills-select {
+  margin-top: 20px;
+  border-bottom: 2px solid #dfe1e6;
+  height: 50px;
+  width: 290px;
 }
