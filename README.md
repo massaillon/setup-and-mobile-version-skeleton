@@ -7,25 +7,18 @@ Built With
     - HTML
     - CSS
 
-Prerequisites
 
-    * For this project, you should use the HTML&CSS linter
+Getting Started  
 
-    * The 4 sections you need to build for this project are:
-        
-        - the toolbar section
-        - the headline section
-        - works section
-        - about myself section
+  This project is the 3rd milestone of the Mobile version skeleton project please follow the steps below for getting started and editing the files from your local machine.
 
-        - In order to lay out the elements on the page we should use Flexbox in all 2 first sections and combine CSS grid and flexbox for the other 2 sections.
+   Prerequisites
 
-        - We don't need to implement any functionality that requires JavaScript, like opening the menu or creating dropdowns.
+     - You need to have the visual Code or some other code editors installed on your local machine
 
-        - We must stick to the design as much as possible (e.g. font, colors, images, tests, margins) using the templates in Figma.
+     - You need to have a compatible browser with latest update running on your local
 
-        - Implement the button interactions (enable, hover, etc.).
-
+      
 Setup
      
    Set-up linters in your local env
@@ -54,11 +47,10 @@ Usage
 
 This is my Third project in Microverse program.This project aim at practicing the below :
 
-- Parsing a Figma design to create a UI
-- Using Flexbox to place elements in the page
-- Use CSS Grid in the main container that contains all of the cards
-- Building a personal portfolio site.
-- Make use of images and backgrounds to enhance the look of the website
+- Create forms with HTML5 validations.
+- Understand the importance of UX.
+- Understand how to parse a Figma design to create a UI.
+
 
 
 👤 Author
@@ -67,6 +59,11 @@ This is my Third project in Microverse program.This project aim at practicing th
     LinkedIn: Massaillon Silue
     
 🤝 Contributing
+
+Thanks to M.Bartosz for contributing to the creation of that project as a pair programming team mate
+
+         * GitHub: @whid-bb
+         * LinkedIn:bartosz-kaźmierczak
 
 Contributions, issues, and feature requests are welcome!
 
