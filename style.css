@@ -502,7 +502,7 @@ a {
   display: flex;
   flex-direction: column;
   background: #6070ff;
-  padding-top: 103px;
+  padding-top: 60px;
   border-top-left-radius: 100px;
   width: 100%;
   padding-left: 24px;
@@ -514,16 +514,20 @@ a {
   font-size: 20px;
   color: #ebebff;
   text-align: center;
+  margin-top: 100px;
+  padding-bottom: 25px;
 }
 
 .form-container h2 {
   font-weight: 700;
   font-size: 40px;
+  margin-bottom: 12px;
 }
 
 .form-container form ul {
   display: flex;
   flex-direction: column;
+  align-items: baseline;
 }
 
 .form-container form ul li input {
@@ -549,9 +553,6 @@ a {
   padding-top: 8px;
 }
 
-.form-container form ul li button {
-}
-
 .contact-form-imgs {
   position: absolute;
   background-repeat: no-repeat;
@@ -561,14 +562,60 @@ a {
   background-image: url("images/top-half-circle.png");
   width: 100px;
   height: 100px;
-  right: 0;
   top: 48.78px;
+  left: 328px;
 }
 
 .top-rectangle {
   background-image: url("images/top-recrangle.png");
+  width: 200px;
+  height: 100px;
+  top: 22px;
+  left: 310px;
 }
 
 .top-circle {
   background-image: url("images/top-circle.png");
+  width: 21px;
+  height: 21px;
+  left: 153px;
+}
+
+.bottom-rectangle {
+  background-image: url(../setup-and-mobile-version-skeleton/images/bottom-rectangle-7.png);
+  top: 692px;
+  left: 258px;
+  width: 77px;
+  height: 60px;
+}
+
+.bottom-circle {
+  background-image: url(../setup-and-mobile-version-skeleton/images/bottom-ellipse-5.png);
+  top: 722px;
+  left: 260px;
+  width: 32px;
+  height: 32px;
+}
+
+.form-container button {
+  width: 140px;
+  height: 48px;
+  padding: 12px 16px;
+  background-color: white;
+  color: #6070ff;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  border: 0;
+  border-radius: 8px;
+}
+
+.form-container button:hover {
+  background-color: #6070ff;
+  color: white;
+  border: 1px solid white;
+}
+
+.form-container button:focus {
+  background-color: #2230d2;
+  color: white;
 }
