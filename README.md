@@ -7,23 +7,18 @@ Built With
     - HTML
     - CSS
 
-Prerequisites
 
-    For the third milestone of our portfolio website, we will:
+Getting Started  
 
-        - Add a contact form to your portfolio and the portfolio of your coding partner.
+  This project is the 3rd milestone of the Mobile version skeleton project please follow the steps below for getting started and editing the files from your local machine.
 
-        - Make sure that you guide your users' experience in a way that helps them fill in the form without frustration.
+   Prerequisites
 
+     - You need to have the visual Code or some other code editors installed on your local machine
 
-        - In order to lay out the elements on the page we should use Flexbox in all 2 first sections and combine CSS grid and flexbox for the other 2 sections.
+     - You need to have a compatible browser with latest update running on your local
 
-        - We don't need to implement any functionality that requires JavaScript, like opening the menu or creating dropdowns.
-
-        - We must stick to the design as much as possible (e.g. font, colors, images, tests, margins) using the templates in Figma.
-
-        - Implement the button interactions (enable, hover, etc.).
-
+      
 Setup
      
    Set-up linters in your local env
