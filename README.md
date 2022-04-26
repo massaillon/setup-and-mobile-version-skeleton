@@ -9,14 +9,12 @@ Built With
 
 Prerequisites
 
-    * For this project, you should use the HTML&CSS linter
+    For the third milestone of our portfolio website, we will:
 
-    * The 4 sections you need to build for this project are:
-        
-        - the toolbar section
-        - the headline section
-        - works section
-        - about myself section
+        - Add a contact form to your portfolio and the portfolio of your coding partner.
+
+        - Make sure that you guide your users' experience in a way that helps them fill in the form without frustration.
+
 
         - In order to lay out the elements on the page we should use Flexbox in all 2 first sections and combine CSS grid and flexbox for the other 2 sections.
 
@@ -54,11 +52,10 @@ Usage
 
 This is my Third project in Microverse program.This project aim at practicing the below :
 
-- Parsing a Figma design to create a UI
-- Using Flexbox to place elements in the page
-- Use CSS Grid in the main container that contains all of the cards
-- Building a personal portfolio site.
-- Make use of images and backgrounds to enhance the look of the website
+- Create forms with HTML5 validations.
+- Understand the importance of UX.
+- Understand how to parse a Figma design to create a UI.
+
 
 
 👤 Author
@@ -67,6 +64,11 @@ This is my Third project in Microverse program.This project aim at practicing th
     LinkedIn: Massaillon Silue
     
 🤝 Contributing
+
+Thanks to M.Bartosz for contributing to the creation of that project as a pair programming team mate
+
+         * GitHub: @whid-bb
+         * LinkedIn:bartosz-kaźmierczak
 
 Contributions, issues, and feature requests are welcome!
 
