@@ -1,6 +1,6 @@
 Project Name
 
-    Setup and Mobile Version Skeleton
+    Portfolio Desktop version 
 
 Built With
 
@@ -10,7 +10,7 @@ Built With
 
 Getting Started  
 
-  This project is the 3rd milestone of the Mobile version skeleton project please follow the steps below for getting started and editing the files from your local machine.
+  This project is the 1st milestone of the Portfolio Desktop version  project please follow the steps below for getting started and editing the files from your local machine.
 
    Prerequisites
 
@@ -45,11 +45,10 @@ Setup
     
 Usage
 
-This is my Third project in Microverse program.This project aim at practicing the below :
+This is my Fourth project in Microverse program.This project aim at practicing the below :
 
-- Create forms with HTML5 validations.
-- Understand the importance of UX.
-- Understand how to parse a Figma design to create a UI.
+- Create UIs adaptable to different screen sizes using media queries
+- Parse a Figma design to create a UI.
 
 
 
@@ -60,10 +59,6 @@ This is my Third project in Microverse program.This project aim at practicing th
     
 🤝 Contributing
 
-Thanks to M.Bartosz for contributing to the creation of that project as a pair programming team mate
-
-         * GitHub: @whid-bb
-         * LinkedIn:bartosz-kaźmierczak
 
 Contributions, issues, and feature requests are welcome!
 
