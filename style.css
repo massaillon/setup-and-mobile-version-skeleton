@@ -816,13 +816,11 @@ a {
   }
 
   .slider-work-1 {
-    flex: 1;
     width: 544px;
     height: 448px;
     background-repeat: no-repeat;
     background-image: url(images/Snapshoot\ Portfolio.png);
     position: absolute;
-    left: 89;
     margin-top: 23px;
     margin-right: 575px;
   }
@@ -834,5 +832,23 @@ a {
 
   .see-project {
     margin-top: 18px;
+  }
+
+  .slider-work-2 {
+    width: 544px;
+    height: 448px;
+    background-repeat: no-repeat;
+    background-image: url(images/Snapshoot\ Portfolio.png);
+    position: absolute;
+    margin-top: 23px;
+    margin-left: 580px;
+  }
+
+  .overview-container-2 {
+    flex: 1;
+    width: 544px;
+    align-self: start;
+    margin-top: 50px;
+    margin-left: 50px;
   }
 }
