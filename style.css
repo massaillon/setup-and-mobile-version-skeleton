@@ -801,4 +801,38 @@ a {
     left: 839px;
     top: 758px;
   }
+
+  .overview-container {
+    flex: 1;
+    width: 544px;
+    align-self: end;
+    margin-top: 50px;
+  }
+
+  .portfolio-items {
+    width: 1156px;
+    height: 496px;
+    display: flex;
+  }
+
+  .slider-work-1 {
+    flex: 1;
+    width: 544px;
+    height: 448px;
+    background-repeat: no-repeat;
+    background-image: url(images/Snapshoot\ Portfolio.png);
+    position: absolute;
+    left: 89;
+    margin-top: 23px;
+    margin-right: 575px;
+  }
+
+  .desc-text-work-1 {
+    width: 496px;
+    margin-bottom: -18px;
+  }
+
+  .see-project {
+    margin-top: 18px;
+  }
 }
