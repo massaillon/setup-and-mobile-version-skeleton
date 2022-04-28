@@ -838,7 +838,7 @@ a {
     width: 544px;
     height: 448px;
     background-repeat: no-repeat;
-    background-image: url(images/Snapshoot\ Portfolio.png);
+    background-image: url(images/Snapshoot\ Portfolio-2.png);
     position: absolute;
     margin-top: 23px;
     margin-left: 580px;
@@ -850,5 +850,25 @@ a {
     align-self: start;
     margin-top: 50px;
     margin-left: 50px;
+  }
+
+  .slider-work-3 {
+    width: 544px;
+    height: 448px;
+    background-repeat: no-repeat;
+    background-image: url(images/Snapshoot\ Portfolio-3.png);
+    position: absolute;
+    margin-top: 23px;
+    margin-right: 575px;
+  }
+
+  .slider-work-4 {
+    width: 544px;
+    height: 448px;
+    background-repeat: no-repeat;
+    background-image: url(images/Snapshoot\ Portfolio-4.png);
+    position: absolute;
+    margin-top: 23px;
+    margin-left: 580px;
   }
 }
