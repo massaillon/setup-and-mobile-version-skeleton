@@ -57,7 +57,7 @@ i {
 
 #Header-background {
   width: 100%;
-  height: 618px;
+  height: 700px;
   left: 0;
   top: 0;
   background-image: url("images/header-shapes\ mobile.png");
@@ -734,11 +734,12 @@ a {
 
   .intro-desc-sumary {
     position: relative;
-    margin-top: 14%;
     top: 33px;
     font-size: 20px;
     font-weight: 300;
     line-height: 28px;
+    width: 998px;
+    margin-top: 163px;
   }
 
   h1 {
@@ -908,6 +909,7 @@ a {
     line-height: 28px;
     right: 0;
     width: 600px;
+    margin-top: 78px;
   }
 
   .About-Me .social-area {
@@ -952,5 +954,101 @@ a {
   .framework-select,
   .skills-select {
     width: 502px;
+  }
+
+  .form-container {
+    position: absolute;
+    width: 1440px;
+    max-width: 1440px;
+    height: 900px;
+  }
+
+  .form-container p {
+    max-width: 569px;
+    align-self: center;
+  }
+
+  form {
+    align-self: center;
+    width: 500px;
+  }
+
+  .form-container form ul li input,
+  .form-container form ul li textarea {
+    width: 505px;
+  }
+
+  .form-container button {
+    position: relative;
+    left: 185px;
+    top: 0;
+  }
+
+  .underline-bar-bottom {
+    display: none;
+  }
+
+  .form-container .top-half-circle {
+    position: absolute;
+    width: 141px;
+    height: 125px;
+    left: 1236px;
+    top: 50px;
+    background-image: url(images/desktop/Ellipse\ 3.png);
+  }
+
+  .form-container .top-rectangle {
+    background-image: url(images/desktop/Rectangle\ 4.png);
+    position: relative;
+    width: 110px;
+    height: 64.7px;
+    left: 1181.59px;
+    top: -45px;
+  }
+
+  .form-container .top-circle {
+    background-image: url("images/desktop/Ellipse\ 12.png");
+    width: 30px;
+    height: 30px;
+    left: 470px;
+    top: 123px;
+  }
+
+  .form-container .left-rectangle {
+    background-image: url(images/desktop/Rectangle\ 7.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 113.53px;
+    height: 90.03px;
+    left: 83.86px;
+    top: 374px;
+  }
+
+  .form-container .left-cercle {
+    background-image: url(images/desktop/Ellipse\ 5.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 93.53px;
+    top: 424px;
+  }
+
+  .form-container .bottom-rectangle {
+    background-image: url(images/desktop/Rectangle\ 6.png);
+    position: absolute;
+    width: 65.6px;
+    height: 35.95px;
+    left: 337px;
+    top: 829px;
+  }
+
+  .form-container .bottom-circle {
+    background-image: url(images/desktop/Ellipse\ 11.png);
+    position: absolute;
+    width: 41.18px;
+    height: 40.59px;
+    left: 365.92px;
+    top: 848px;
   }
 }
