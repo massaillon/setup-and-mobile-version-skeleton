@@ -16,7 +16,7 @@ Getting Started
 
      - You need to have the visual Code or some other code editors installed on your local machine
 
-     - You need to have a compatible browser with latest update running on your local
+     - You need to have a compatible browser with latest update running on your local machine
 
       
 Setup
