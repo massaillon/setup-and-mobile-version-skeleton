@@ -871,4 +871,86 @@ a {
     margin-top: 23px;
     margin-left: 580px;
   }
+
+  .About-Me {
+    display: flex;
+    background-color: white;
+    border-top-right-radius: 93px;
+    width: 1438px;
+  }
+
+  .container-about {
+    margin: -1% 26% 0% 10%;
+  }
+
+  .My-prog-lang {
+    position: relative;
+    right: 323px;
+    top: 70px;
+  }
+
+  .About-Myself {
+    color: #172b4d;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    position: relative;
+    width: 10px;
+  }
+
+  .About-Me .intro-desc-sumary {
+    position: relative;
+    top: -110px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+    right: 0;
+    width: 600px;
+  }
+
+  .About-Me .social-area {
+    top: -104px;
+  }
+
+  .About-Me .view-resume {
+    margin-bottom: 96px;
+    margin-top: -115px;
+  }
+
+  .My-prog-lang .lang-box-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .lang-box {
+    width: 118px;
+    height: 112px;
+    flex-direction: column;
+  }
+
+  .lang-logo-js,
+  .lang-logo-css,
+  .lang-logo-html {
+    padding-top: 40px;
+    align-self: baseline;
+    margin: 5px;
+  }
+
+  .lang-select,
+  .framework-select,
+  .skills-select {
+    margin-left: 9px;
+    margin-right: -255px;
+  }
+
+  .lang-label {
+    margin: 5px;
+  }
+
+  .framework-select,
+  .skills-select {
+    width: 502px;
+  }
 }
