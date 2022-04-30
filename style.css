@@ -168,6 +168,13 @@ a {
   gap: 5px;
 }
 
+.slider-work-1,
+.slider-work-2,
+.slider-work-3,
+.slider-work-4 {
+  transition: all 200ms ease-in-out;
+}
+
 .slider-work-1 {
   position: static;
   margin: 15px 20px 1px 20px;
@@ -206,6 +213,13 @@ a {
   border-radius: 8px;
   background: url(images/Card\ Work-4.png);
   background-repeat: no-repeat;
+}
+
+.slider-work-1:hover,
+.slider-work-2:hover,
+.slider-work-3:hover,
+.slider-work-4:hover {
+  scale: 1.2;
 }
 
 .title-work-1 {
