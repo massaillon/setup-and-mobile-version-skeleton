@@ -564,7 +564,8 @@ a {
   margin-top: 20px;
   border-bottom: 2px solid #dfe1e6;
   height: 50px;
-  width: 290px;
+  width: 300px;
+  align-self: center;
 }
 
 /* The styles below are for the contact form */
