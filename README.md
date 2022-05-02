@@ -10,7 +10,9 @@ Built With
 
 Getting Started  
 
-  This project is the 1st milestone of the Portfolio Desktop version  project please follow the steps below for getting started and editing the files from your local machine.
+  This project at deploying the Portfolio Desktop and mobile version online.
+
+  Please follow the steps below for getting started and editing the files from your local machine.
 
    Prerequisites
 
@@ -45,11 +47,10 @@ Setup
     
 Usage
 
-This is my Fourth project in Microverse program.This project aim at practicing the below :
+This is my Fifth project in Microverse program.This project aim at practicing the below :
 
-- Create UIs adaptable to different screen sizes using media queries
-- Parse a Figma design to create a UI.
-
+- Use GitHub Pages to deploy web pages.
+- Demonstrate ability to ask clarifying questions about ambiguous requirements.
 
 
 👤 Author
@@ -57,6 +58,10 @@ This is my Fourth project in Microverse program.This project aim at practicing t
     GitHub: @massaillon
     LinkedIn: Massaillon Silue
     
+Link to the Live website
+
+     https://massaillon.github.io/setup-and-mobile-version-skeleton/
+
 🤝 Contributing
 
 
