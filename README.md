@@ -64,7 +64,12 @@ Link to the Live website
 
 🤝 Contributing
 
+Thanks to Winfred Edube for making  contributions on the following:
+  - Add alternative text to the arrow button in framework arrow button
+  -  Add alternative text to the arrow button in skills arrow button
+  - Change text color for the form button to ensure accessibility
 
+  
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the issues page.
