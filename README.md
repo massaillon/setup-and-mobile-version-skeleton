@@ -1,14 +1,14 @@
-Project Name
+### Project Name
 
-   Add some annimation to the Portfolio Desktop version 
+  # Web accessibility check milestone 6 
 
-Built With
+## Built With
 
     - HTML
     - CSS
 
 
-Getting Started  
+## Getting Started  
 
   This project at deploying the Portfolio Desktop and mobile version online.
 
@@ -21,7 +21,7 @@ Getting Started
      - You need to have a compatible browser with latest update running on your local machine
 
       
-Setup
+## Setup
      
    Set-up linters in your local env
 
@@ -45,18 +45,26 @@ Setup
         5 - Fix validation errors.
 
     
-Usage
+## Usage
 
-This is my Fifth project in Microverse program.This project aim at practicing the below :
+    In the sixth milestone of your portfolio website, you will:
 
-- Use GitHub Pages to deploy web pages.
-- Demonstrate ability to ask clarifying questions about ambiguous requirements.
+    - evaluate your website against accessibility best practices and implement any necessary    changes to ensure that your website is accessible.
+
 
 
 👤 Author
 
     GitHub: @massaillon
     LinkedIn: Massaillon Silue
+
+       👤 Collaborator
+
+         **Winfred Edube**
+
+           - GitHub: [@edubew](https://github.com/edubew)
+           - Twitter: [@edube_winne](https://twitter.com/edube_winne)
+           - LinkedIn: [Winfred Edube](https://www.linkedin.com/in/winfred-edube-9820a422a/)
     
 Link to the Live website
 
