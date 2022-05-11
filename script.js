@@ -1,18 +1,20 @@
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
-hamburger.addEventListener("click", mobileMenu);
+
 
 function mobileMenu(){
+  /*Open the menu and and change the Hamburger to a X on click */
+if(navMenu.classList.contains('hide')){
+    navMenu.classList.remove('hide');
+    hamburger.classList.toggle("active")
+}
+else {
+    navMenu.classList.add('hide');
     hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
 }
 
-const navLink = document.querySelectorAll(".nav-link");
-
-navLink.forEach(n => n.addEventListener("click", closeMenu));
-
-function closeMenu() {
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
 }
+
+hamburger.addEventListener("click", mobileMenu);
+/*For closing navigation on the click of each link*/
