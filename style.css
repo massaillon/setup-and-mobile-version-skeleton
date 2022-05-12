@@ -45,6 +45,7 @@ body {
   line-height: 20px;
   padding-left: 24px;
 }
+
 .hide {
   display: none;
 }
@@ -61,9 +62,24 @@ body {
   z-index: 2;
 }
 
+.nav-link {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+}
+
 .hamburger {
   display: block;
   margin-right: 20px;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 5px;
+  margin: 5px auto;
+  transition: all 0.3s ease-in-out;
+  background-color: #808080;
 }
 
 .hamburger.active .bar:nth-child(2) {
@@ -78,40 +94,25 @@ body {
   transform: translateY(-8px) rotate(-45deg);
 }
 
-
 .nav-menu {
-  left:100%;
+  left: 100%;
   top: 70px;
   flex-direction: column;
-  background-color:#6070ff;
+  background-color: #6070ff;
   width: 100%;
-  text-align:center;
+  text-align: start;
   transition: 0.3s;
   min-height: 700px;
-  
+  z-index: 10;
 }
-
 
 .nav-item {
   margin: 16px 0;
-  }
-
-
-  .nav-menu.active {
-    left: 0;
-  }
-
-
-
-.bar {
-  display: block;
-  width: 25px;
-  height: 5px;
-  margin: 5px auto;
-  transition: all 0.3s ease-in-out;
-  background-color: #808080;
 }
 
+.nav-menu.active {
+  left: 0;
+}
 
 #Header-background {
   width: 100%;
@@ -187,8 +188,6 @@ ul {
   z-index: 10;
 }
 
-
-
 a {
   text-decoration: none;
   color: #2e40dc;
@@ -196,7 +195,7 @@ a {
 
 /* The CSS codes below are the styles for the works and About myself sections */
 
-.main-home {
+#main-home {
   display: grid;
   min-height: 100vh;
   align-content: center;
@@ -448,7 +447,7 @@ a {
   position: static;
 }
 
-.About-Me {
+#About-Me {
   display: flex;
   flex-direction: column;
   min-width: 100%;
@@ -745,13 +744,9 @@ a {
   margin-bottom: -18px;
 }
 
-
-/*media Queries for desktop version*/
-
+/* media Queries for desktop version */
 
 @media all and (min-width: 768px) {
-
-  
   body {
     overflow-x: hidden;
     margin: 0;
@@ -765,8 +760,6 @@ a {
     display: none;
     cursor: pointer;
   }
-
- 
 
   .headline {
     align-items: center;
@@ -801,12 +794,13 @@ a {
 
   .nav-link {
     transition: 0.7s ease;
+    color: #344563;
+    font-size: 15px;
   }
 
   .nav-link:hover {
-    color: #2e40dc;;
+    color: #2e40dc;
   }
-
 
   nav ul li {
     width: 24px;
@@ -827,7 +821,6 @@ a {
     justify-content: space-evenly;
     gap: 0;
   }
-
 
   .social-network {
     margin-top: 40px;
@@ -906,7 +899,7 @@ a {
     width: 204px;
     height: 145px;
     left: 955px;
-    top: 57px;
+    top: 81px;
     transform: rotate(-3.14deg);
   }
 
@@ -917,7 +910,7 @@ a {
     width: 224px;
     height: 224px;
     left: 1016px;
-    top: 128px;
+    top: 154px;
   }
 
   .headline-intro {
@@ -1058,7 +1051,7 @@ a {
     margin-left: 580px;
   }
 
-  .About-Me {
+  #About-Me {
     display: flex;
     background-color: white;
     border-top-right-radius: 93px;
@@ -1093,7 +1086,7 @@ a {
     width: 10px;
   }
 
-  .About-Me .intro-desc-sumary {
+  #About-Me .intro-desc-sumary {
     font-size: 20px;
     font-weight: 300;
     line-height: 28px;
