@@ -58,7 +58,7 @@ body {
   font-size: 15px;
   font-weight: 500;
   color: #344563;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(3px);
 }
 
 .nav-link {
@@ -107,8 +107,9 @@ body {
   width: 100%;
   text-align: start;
   transition: 0.3s;
-  min-height: 750px;
-  opacity: 95%;
+  min-height: 758px;
+  opacity: 96.7%;
+  margin-top: -63px;
 }
 
 .nav-item {
@@ -121,7 +122,7 @@ body {
   background-color: #0d151e;
   border-radius: 10px;
   position: absolute;
-  top: 750px;
+  top: 700px;
 }
 
 #Header-background {
@@ -781,7 +782,7 @@ a {
     flex-direction: row;
     background-color: white;
     min-height: auto;
-    gap: 46px;
+    margin-top: 0;
   }
 
   .underline-bar-navmenu {
@@ -798,10 +799,10 @@ a {
   }
 
   .navbar {
-    display: flex;
-    margin-right: 110px;
     font-weight: 272;
     flex: 1;
+    margin-right: 110px;
+    gap: 501px;
   }
 
   .nav-link {
@@ -1362,7 +1363,7 @@ a {
 
   .hamburger {
     position: absolute;
-    top: 42%;
+    top: 0%;
     text-align: right;
     right: 20px;
   }
@@ -1373,6 +1374,6 @@ a {
 
   .hamburger.active {
     position: absolute;
-    top: 5%;
+    top: 0;
   }
 }
