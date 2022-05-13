@@ -44,6 +44,7 @@ body {
   font-size: 18px;
   line-height: 20px;
   padding-left: 24px;
+  
 }
 
 .hide {
@@ -58,14 +59,19 @@ body {
   font-size: 15px;
   font-weight: 500;
   color: #344563;
-  padding-right: 0 24px;
+  backdrop-filter: blur(5px);
 }
 
 .nav-link {
   color: white;
   font-family: "Poppins", sans-serif;
-  font-size: 30px;
+  font-size: 32px;
+  position: absolute;
+  left: 53px;
+  padding-top: 24px;
 }
+
+
 
 .hamburger {
   display: block;
@@ -78,19 +84,22 @@ body {
   height: 5px;
   margin: 5px auto;
   transition: all 0.3s ease-in-out;
-  background-color: #808080;
+  background-color: #2e40dc;
 }
 
 .hamburger.active .bar:nth-child(2) {
   opacity: 0;
+  background-color: white;
 }
 
 .hamburger.active .bar:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
+  background-color: white;
 }
 
 .hamburger.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
+  background-color: white;
 }
 
 .nav-menu {
@@ -101,13 +110,22 @@ body {
   width: 100%;
   text-align: start;
   transition: 0.3s;
-  min-height: 700px;
-  z-index: 10;
+  min-height: 750px;
   opacity: 95%;
+  
 }
 
 .nav-item {
   margin: 16px 0;
+}
+
+.underline-bar-navmenu {
+  width: 134px;
+  height: 5px;
+  background-color: #0d151e;
+  border-radius: 10px;
+  position: absolute;
+  top: 750px;
 }
 
 #Header-background {
@@ -177,10 +195,9 @@ body {
 ul {
   list-style-type: none;
   display: flex;
-  justify-content: center;
   align-items: center;
   padding-left: 5px;
-  gap: 18px;
+  gap: 30px;
 }
 
 a {
@@ -764,12 +781,18 @@ a {
 
   .nav-menu {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     flex-direction: row;
     background-color: white;
     min-height: auto;
+    gap: 46px;
   }
+
+
+.underline-bar-navmenu{
+  display: none;
+}
+
 
   .bar {
     display: block;
@@ -791,12 +814,17 @@ a {
     transition: 0.7s ease;
     color: #344563;
     font-size: 15px;
+    position: relative;
   }
 
   .nav-link:hover {
     color: #2e40dc;
   }
-
+ul {
+  padding-top: 0px;
+  
+}
+  
   nav ul li {
     width: 24px;
     height: 20px;
@@ -1328,4 +1356,31 @@ a {
     padding-left: 5px;
     padding-top: 8px;
   }
+}
+@media all and (max-width: 768px) {
+  .navbar {
+    display: block;
+    position: absolute;
+    top: -164%;
+    z-index: 999;
+
+  }
+
+.hamburger {
+  position: absolute;
+top: 42%;
+text-align: right;
+right: 20px;
+}
+
+.hamburger span {
+  color: white;
+}
+
+.hamburger.active {
+  position: absolute;
+  top: 5%;
+}
+
+
 }
