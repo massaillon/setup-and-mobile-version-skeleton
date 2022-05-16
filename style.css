@@ -59,7 +59,6 @@ body {
   font-size: 15px;
   font-weight: 500;
   color: #344563;
-  backdrop-filter: blur(2px);
 }
 
 .nav-link {
@@ -68,7 +67,7 @@ body {
   font-size: 32px;
   position: absolute;
   left: 53px;
-  padding-top: 106px;
+  margin-top: 106px;
 }
 
 .hamburger {
@@ -104,12 +103,12 @@ body {
   left: 100%;
   top: 70px;
   flex-direction: column;
-  background-color: #6070ff;
+  background-color: rgba(96, 112, 255, 0.8);
+  backdrop-filter: blur(8px);
   width: 100%;
   text-align: start;
   transition: 0.3s;
   min-height: 758px;
-  opacity: 90%;
   margin-top: -63px;
 }
 
@@ -877,6 +876,15 @@ a {
 
   #Header-container {
     top: 0;
+  }
+
+  #main-home {
+    display: grid;
+    min-height: 100vh;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #e5e5e5;
   }
 
   .ellipse-rectangle-6 {
