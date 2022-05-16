@@ -68,13 +68,13 @@
     GitHub: @massaillon
     LinkedIn: Massaillon Silue
 
-       👤 Collaborator
+      👤 **Afolabi Akorede**
 
-         **Sean-John Alpha**
+         - GitHub: [@brainconnect93](https://github.com/brainconnect93)
+         - Twitter: [@brainconnect0](https://twitter.com/brainconnect0)
+         - LinkedIn: [Afolabi Akorede](https://linkedin.com/in/brainconnect93)
 
-           - GitHub: @johnalpha74 
-        
-    
+
 Link to the Live website
 
      https://massaillon.github.io/setup-and-mobile-version-skeleton/

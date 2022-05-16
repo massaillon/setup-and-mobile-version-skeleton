@@ -32,10 +32,10 @@ body {
   height: 25px;
 }
 
-.logo-container {
+#logo-container {
   flex: 1;
   flex-direction: column;
-  color: #6070ff;
+  color: #2e40dc;
   display: flex;
   justify-content: right;
   font-family: "Poppins", sans-serif;
@@ -55,10 +55,12 @@ body {
   width: 100%;
   min-height: 70px;
   justify-content: right;
+  align-items: center;
   font-size: 15px;
   font-weight: 500;
   color: #344563;
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
 
 .nav-link {
@@ -67,7 +69,7 @@ body {
   font-size: 32px;
   position: absolute;
   left: 53px;
-  padding-top: 24px;
+  padding-top: 106px;
 }
 
 .hamburger {
@@ -78,8 +80,8 @@ body {
 .bar {
   display: block;
   width: 25px;
-  height: 5px;
-  margin: 5px auto;
+  height: 3px;
+  margin: 5px 0;
   transition: all 0.3s ease-in-out;
   background-color: #2e40dc;
 }
@@ -108,8 +110,13 @@ body {
   text-align: start;
   transition: 0.3s;
   min-height: 758px;
-  opacity: 96.7%;
+  opacity: 90%;
   margin-top: -63px;
+}
+
+.fa-solid,
+.fas.active {
+  margin-left: 377px;
 }
 
 .nav-item {
