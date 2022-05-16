@@ -59,7 +59,6 @@ body {
   font-size: 15px;
   font-weight: 500;
   color: #344563;
-  backdrop-filter: blur(2px);
 }
 
 .nav-link {
@@ -68,7 +67,7 @@ body {
   font-size: 32px;
   position: absolute;
   left: 53px;
-  padding-top: 106px;
+  margin-top: 106px;
 }
 
 .hamburger {
@@ -104,22 +103,13 @@ body {
   left: 100%;
   top: 70px;
   flex-direction: column;
-  background-color: #6070ff;
+  background-color: rgba(96, 112, 255, 0.65);
+  backdrop-filter: blur(8px);
   width: 100%;
   text-align: start;
   transition: 0.3s;
   min-height: 758px;
-  opacity: 90%;
   margin-top: -63px;
-}
-
-.blur {
-  backdrop-filter: blur(5px);
-}
-
-.fa-solid,
-.fas.active {
-  margin-left: 377px;
 }
 
 .nav-item {
@@ -132,7 +122,7 @@ body {
   background-color: #0d151e;
   border-radius: 10px;
   position: absolute;
-  top: 700px;
+  top: 747px;
 }
 
 #Header-background {
@@ -811,8 +801,9 @@ a {
   .navbar {
     font-weight: 272;
     flex: 1;
-    margin-right: 110px;
+    margin-right: 67px;
     gap: 300px;
+    margin-left: 100px;
   }
 
   .nav-link {
@@ -855,7 +846,6 @@ a {
   }
 
   .logo-container {
-    padding-left: 129px;
     align-self: center;
   }
 
