@@ -1,6 +1,6 @@
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
-
+const blurAll = document.querySelector('blur');
 function mobileMenu() {
   /* Open the menu and and change the Hamburger to a X on click */
   if (navMenu.classList.contains('hide')) {
@@ -9,6 +9,7 @@ function mobileMenu() {
   } else {
     navMenu.classList.add('hide');
     hamburger.classList.toggle('active');
+    blurAll.classList.remove('blur');
   }
 }
 hamburger.addEventListener('click', mobileMenu);
