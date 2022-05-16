@@ -11,25 +11,27 @@
 
 <body>
   <header id="header-container">
-    <div class="logo-container">
-        <a href="#">Welcome</a>
-    </div>
-
-    <nav>
-        <ul>
-            <li>
-                <a href="#">Portfolio</a>
+    <nav class="navbar">
+        <a id="logo-container" href="#">Welcome</a>
+        <ul class="nav-menu hide">
+            <li class="nav-item">
+                <a  href="#main-home" class="nav-link">Portfolio</a>
             </li>
-            <li>
-                <a href="#">About</a>
+            <li class="nav-item">
+                <a href="#About-Me" class="nav-link">About</a>
             </li>
-            <li>
-                <a href="#">Contact</a>
+            <li class="nav-item">
+                <a href="#form" class="nav-link" >Contact</a>
             </li>
+            <li class="underline-bar-navmenu"></li>
         </ul>
-        <i class="fa-solid fa-bars fa-xl"></i>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+            
     </nav>
-
   </header>
   <div id="Header-background">
       <div class="ellipse-rectangle-6"></div>
@@ -40,7 +42,6 @@
       <div class="ellipse-big-half-donut-active"></div>
 
       <section class="headline">
-
           <div class="intro-container">
             <div class="headline-intro">
                 <h1>I’m Massaillon <br>
@@ -92,12 +93,11 @@
 
   <!-- The HTML codes below are  for the works and About myself sections  Milestone 2-->
 
-  <main class="main-home">
+  <main id="main-home">
 
       <div class="portfolio-items">
           <div class="slider-work-1"></div>
           <div class="overview-container">
-
           <h3 class="title-work-1">Tonic</h3>
           <div class="detail-overview-work-1">
               <div class="">CANOPY</div>
@@ -245,7 +245,7 @@
   </main>
 
   <section>
-      <div class="About-Me">
+      <div id="About-Me">
       <div class="container-about">
           <div class="About-Myself">
               <h2>About
@@ -336,7 +336,7 @@
   </section>
   
   <!--The HTML codes below are  for the contact form's section  Milestone 3-->
-  <section>
+  <section id="form">
       <div class="form-container">
           <div class="top-half-circle contact-form-imgs"></div>
           <div class="top-rectangle contact-form-imgs"></div>
@@ -374,6 +374,7 @@
           </form>
       </div>
   </section>
+  <script src="script.js"></script>
 </body>
 
 </html>

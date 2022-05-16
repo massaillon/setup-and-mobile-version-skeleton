@@ -1,16 +1,17 @@
 ### Project Name
 
-  # Web accessibility check milestone 6 
+  # Portfolio - mobile menu milestone 7 
 
 ## Built With
 
     - HTML
     - CSS
+    - JAVASCRIPT
 
 
 ## Getting Started  
 
-  This project at deploying the Portfolio Desktop and mobile version online.
+  This project at deploying creating the mobile menu .
 
   Please follow the steps below for getting started and editing the files from your local machine.
 
@@ -43,13 +44,22 @@
         3 - Do not make any changes in config files
         4 - Run "npx stylelint "**/*.{css,scss}"  to run the CSS linter for a check
         5 - Fix validation errors.
+    
+    * Setup for JavaScript-checker called ESlint
+
+        1 - run  "npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x"
+
+        2 - Copy " .eslintrc.json to the root directory of your project."
+        3 - Do not make any changes in config files
+        4 - Run "npx eslint ."  to run the javaScript linter for a check
+        5 - Fix validation errors.
 
     
 ## Usage
 
-    In the sixth milestone of your portfolio website, you will:
+    In the seventh milestone of your portfolio website, you will:
 
-    - evaluate your website against accessibility best practices and implement any necessary    changes to ensure that your website is accessible.
+    - you will implement the mobile menu using your recently acquired JavaScript knowledge.
 
 
 
@@ -58,24 +68,20 @@
     GitHub: @massaillon
     LinkedIn: Massaillon Silue
 
-       👤 Collaborator
+      👤 **Afolabi Akorede**
 
-         **Winfred Edube**
+         - GitHub: [@brainconnect93](https://github.com/brainconnect93)
+         - Twitter: [@brainconnect0](https://twitter.com/brainconnect0)
+         - LinkedIn: [Afolabi Akorede](https://linkedin.com/in/brainconnect93)
 
-           - GitHub: [@edubew](https://github.com/edubew)
-           - Twitter: [@edube_winne](https://twitter.com/edube_winne)
-           - LinkedIn: [Winfred Edube](https://www.linkedin.com/in/winfred-edube-9820a422a/)
-    
+
 Link to the Live website
 
      https://massaillon.github.io/setup-and-mobile-version-skeleton/
 
 🤝 Contributing
 
-Thanks to Winfred Edube for making  contributions on the following:
-  - Add alternative text to the arrow button in framework arrow button
-  -  Add alternative text to the arrow button in skills arrow button
-  - Change text color for the form button to ensure accessibility
+Thanks to Sean-John Alpha for making  contributions on this project
 
   
 Contributions, issues, and feature requests are welcome!

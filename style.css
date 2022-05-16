@@ -32,10 +32,10 @@ body {
   height: 25px;
 }
 
-.logo-container {
+#logo-container {
   flex: 1;
   flex-direction: column;
-  color: #6070ff;
+  color: #2e40dc;
   display: flex;
   justify-content: right;
   font-family: "Poppins", sans-serif;
@@ -46,18 +46,92 @@ body {
   padding-left: 24px;
 }
 
-nav {
+.hide {
+  display: none;
+}
+
+.navbar {
   display: flex;
-  flex: 1;
+  width: 100%;
+  min-height: 70px;
   justify-content: right;
+  align-items: center;
   font-size: 15px;
   font-weight: 500;
   color: #344563;
-  padding-right: 24px;
 }
 
-i {
-  color: #6070ff;
+.nav-link {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  position: absolute;
+  left: 53px;
+  margin-top: 106px;
+}
+
+.hamburger {
+  display: block;
+  margin-right: 20px;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px 0;
+  transition: all 0.3s ease-in-out;
+  background-color: #2e40dc;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+  background-color: white;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+  background-color: white;
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+  background-color: white;
+}
+
+.nav-menu {
+  left: 100%;
+  top: 70px;
+  flex-direction: column;
+  background-color: rgba(96, 112, 255, 0.8);
+  backdrop-filter: blur(8px);
+  width: 100%;
+  text-align: start;
+  transition: 0.3s;
+  min-height: 758px;
+  margin-top: -63px;
+}
+
+.blur {
+  backdrop-filter: blur(5px);
+}
+
+.fa-solid,
+.fas.active {
+  margin-left: 377px;
+}
+
+.nav-item {
+  margin: 16px 0;
+}
+
+.underline-bar-navmenu {
+  width: 134px;
+  height: 5px;
+  background-color: #0d151e;
+  border-radius: 10px;
+  position: absolute;
+  top: 700px;
 }
 
 #Header-background {
@@ -127,14 +201,9 @@ i {
 ul {
   list-style-type: none;
   display: flex;
-  justify-content: center;
   align-items: center;
   padding-left: 5px;
-  gap: 18px;
-}
-
-nav ul {
-  display: none;
+  gap: 30px;
 }
 
 a {
@@ -144,7 +213,7 @@ a {
 
 /* The CSS codes below are the styles for the works and About myself sections */
 
-.main-home {
+#main-home {
   display: grid;
   min-height: 100vh;
   align-content: center;
@@ -396,7 +465,7 @@ a {
   position: static;
 }
 
-.About-Me {
+#About-Me {
   display: flex;
   flex-direction: column;
   min-width: 100%;
@@ -693,6 +762,8 @@ a {
   margin-bottom: -18px;
 }
 
+/* media Queries for desktop version */
+
 @media all and (min-width: 768px) {
   body {
     overflow-x: hidden;
@@ -703,19 +774,59 @@ a {
     min-width: 100%;
   }
 
+  .hamburger {
+    display: none;
+    cursor: pointer;
+  }
+
   .headline {
     align-items: center;
     justify-content: center;
     margin-top: 170px;
   }
 
-  nav {
-    margin-right: 110px;
-    font-weight: 272;
+  .nav-menu {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+    min-height: auto;
+    margin-top: 0;
   }
 
-  nav i {
-    display: none !important;
+  .underline-bar-navmenu {
+    display: none;
+  }
+
+  .bar {
+    display: block;
+    width: 25px;
+    height: 5px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: #808080;
+  }
+
+  .navbar {
+    font-weight: 272;
+    flex: 1;
+    margin-right: 110px;
+    gap: 300px;
+  }
+
+  .nav-link {
+    transition: 0.7s ease;
+    color: #344563;
+    font-size: 15px;
+    position: relative;
+  }
+
+  .nav-link:hover {
+    color: #2e40dc;
+  }
+
+  ul {
+    padding-top: 0;
   }
 
   nav ul li {
@@ -767,6 +878,15 @@ a {
     top: 0;
   }
 
+  #main-home {
+    display: grid;
+    min-height: 100vh;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #e5e5e5;
+  }
+
   .ellipse-rectangle-6 {
     background-image: url(images/Rectangle\ 6.png);
     width: 92.67px;
@@ -815,7 +935,7 @@ a {
     width: 204px;
     height: 145px;
     left: 955px;
-    top: 57px;
+    top: 81px;
     transform: rotate(-3.14deg);
   }
 
@@ -826,7 +946,7 @@ a {
     width: 224px;
     height: 224px;
     left: 1016px;
-    top: 128px;
+    top: 154px;
   }
 
   .headline-intro {
@@ -967,7 +1087,7 @@ a {
     margin-left: 580px;
   }
 
-  .About-Me {
+  #About-Me {
     display: flex;
     background-color: white;
     border-top-right-radius: 93px;
@@ -1002,7 +1122,7 @@ a {
     width: 10px;
   }
 
-  .About-Me .intro-desc-sumary {
+  #About-Me .intro-desc-sumary {
     font-size: 20px;
     font-weight: 300;
     line-height: 28px;
@@ -1248,5 +1368,30 @@ a {
     border: 0;
     padding-left: 5px;
     padding-top: 8px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .navbar {
+    display: block;
+    position: absolute;
+    top: -164%;
+    z-index: 999;
+  }
+
+  .hamburger {
+    position: absolute;
+    top: 0%;
+    text-align: right;
+    right: 20px;
+  }
+
+  .hamburger span {
+    color: white;
+  }
+
+  .hamburger.active {
+    position: absolute;
+    top: 0;
   }
 }
