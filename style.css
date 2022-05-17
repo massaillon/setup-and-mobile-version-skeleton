@@ -103,9 +103,7 @@ body {
   left: 100%;
   top: 70px;
   flex-direction: column;
-
   background-color: rgba(96, 112, 255, 0.65);
-
   backdrop-filter: blur(8px);
   width: 100%;
   text-align: start;
