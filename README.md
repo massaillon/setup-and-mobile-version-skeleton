@@ -1,6 +1,6 @@
 ### Project Name
 
-  # Portfolio - mobile menu milestone 7 
+  # Portfolio: details popup window milestone 8 
 
 ## Built With
 
@@ -11,7 +11,7 @@
 
 ## Getting Started  
 
-  This project at deploying creating the mobile menu .
+  This project at deploying creating the details popup window .
 
   Please follow the steps below for getting started and editing the files from your local machine.
 
@@ -57,9 +57,9 @@
     
 ## Usage
 
-    In the seventh milestone of your portfolio website, you will:
+    In the eighth milestone of our portfolio website, we will:
 
-    - you will implement the mobile menu using your recently acquired JavaScript knowledge.
+    - We will implement a popup window that includes the project details in both desktop and mobile. In order to do that, we will need to store the information about your projects in a JavaScript object.
 
 
 
@@ -67,6 +67,7 @@
 
     GitHub: @massaillon
     LinkedIn: Massaillon Silue
+    Twitter: Massaillon Silue
 
       👤 **Afolabi Akorede**
 
