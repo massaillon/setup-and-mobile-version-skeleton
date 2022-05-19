@@ -1,6 +1,6 @@
 ### Project Name
 
-  # Portfolio - mobile menu milestone 7 
+  # Portfolio - modal popup window  milestone 8
 
 ## Built With
 
@@ -81,7 +81,7 @@ Link to the Live website
 
 🤝 Contributing
 
-Thanks to Sean-John Alpha for making  contributions on this project
+Thanks to Afolabi Akorede for contributing on my project
 
   
 Contributions, issues, and feature requests are welcome!
