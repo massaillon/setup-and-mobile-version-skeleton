@@ -520,7 +520,10 @@ a {
   background-repeat: no-repeat;
 }
 
-.desc-text-modal-1 {
+.desc-text-modal-1,
+.desc-text-modal-2,
+.desc-text-modal-3,
+.desc-text-modal-4 {
   position: relative;
   align-self: center;
   width: 313px;
@@ -546,6 +549,11 @@ a {
 }
 
 .desc-text-modal-3 p {
+  margin-top: 5px;
+  margin-left: 28px;
+}
+
+.desc-text-modal-4 p {
   margin-top: 5px;
   margin-left: 28px;
 }
@@ -1378,7 +1386,37 @@ a {
     width: 820px;
     height: 605px;
     border-radius: 8px;
-    background: url(images/Modal_Desktop/Snapshoot\ Portfolio\(4\).png);
+    background: url(images/Modal_Desktop/Snapshoot\ Portfolio\(4\) .png);
+    background-repeat: no-repeat;
+  }
+
+  .slider-modal-2 {
+    position: static;
+    margin: 9px 13px -84px 23px;
+    width: 820px;
+    height: 605px;
+    border-radius: 8px;
+    background: url(images/Modal_Desktop/Snapshoot\ Portfolio\(4\) .png);
+    background-repeat: no-repeat;
+  }
+
+  .slider-modal-3 {
+    position: static;
+    margin: 9px 13px -84px 23px;
+    width: 820px;
+    height: 605px;
+    border-radius: 8px;
+    background: url(images/Modal_Desktop/Snapshoot\ Portfolio\(4\) .png);
+    background-repeat: no-repeat;
+  }
+
+  .slider-modal-4 {
+    position: static;
+    margin: 9px 13px -84px 23px;
+    width: 820px;
+    height: 605px;
+    border-radius: 8px;
+    background: url(images/Modal_Desktop/Snapshoot\ Portfolio\(4\) .png);
     background-repeat: no-repeat;
   }
 
@@ -1394,7 +1432,10 @@ a {
     flex-direction: column;
   }
 
-  .desc-text-modal-1 {
+  .desc-text-modal-1,
+  .desc-text-modal-2,
+  .desc-text-modal-3,
+  .desc-text-modal-4 {
     position: relative;
     align-self: center;
     width: 313px;
@@ -1410,6 +1451,21 @@ a {
   }
 
   .desc-text-modal-1 p {
+    margin-top: 18px;
+    margin-left: -31%;
+  }
+
+  .desc-text-modal-2 p {
+    margin-top: 18px;
+    margin-left: -31%;
+  }
+
+  .desc-text-modal-3 p {
+    margin-top: 18px;
+    margin-left: -31%;
+  }
+
+  .desc-text-modal-4 p {
     margin-top: 18px;
     margin-left: -31%;
   }
