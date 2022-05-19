@@ -47,7 +47,7 @@ body {
 }
 
 .hide {
-  display: none;
+  display: none !important;
 }
 
 .navbar {
@@ -217,7 +217,7 @@ a {
   display: flex;
   flex-direction: column;
   width: 340px;
-  height: 552px;
+  min-height: 552px;
   margin: 88px 0;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
@@ -408,6 +408,251 @@ a {
   transition: all 200ms ease-in-out;
 }
 
+#seeProjBtn1,
+#seeProjBtn2,
+#seeProjBtn3,
+#seeProjBtn4 {
+  display: flex;
+  border: 1px solid #396df2;
+  flex-direction: column;
+  height: 50px;
+  width: 150px;
+  margin-right: 140px;
+  border-radius: 16px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: white;
+  color: #396df2;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  transition: all 200ms ease-in-out;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 9999;
+  padding-top: 42px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 743px;
+  overflow: none;
+  background-color: rgba(193, 199, 208, 0.65);
+  backdrop-filter: blur(8px);
+}
+
+.modal-content {
+  width: 359px;
+  height: 87%;
+  display: flex;
+  flex-direction: column;
+  margin: -29px 0;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background-color: white;
+  top: 114px;
+  gap: 5px;
+}
+
+.modal-header {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.title-work {
+  color: #172b4d;
+  width: 294px;
+  height: auto;
+  margin: 1px 16px;
+  left: 0;
+  top: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.close {
+  color: rgba(103, 121, 142, 1);
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+.detail-overview-work {
+  width: 326px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 18px;
+  color: #344563;
+  gap: 20px;
+  align-content: left;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.slider-modal-1 {
+  position: static;
+  margin: 9px 13px 1px 23px;
+  width: 311px;
+  height: 220px;
+  border-radius: 8px;
+  background: url(images/Modal/Snapshoot\ Portfolio_modal_1.png);
+  background-repeat: no-repeat;
+}
+
+.desc-text-modal-1 {
+  position: relative;
+  align-self: center;
+  width: 313px;
+  height: 76px;
+  left: 0;
+  top: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  color: #344563;
+}
+
+.desc-text-modal-1 p {
+  margin-top: 5px;
+}
+
+.button-work {
+  display: flex;
+  width: 200px;
+  margin-right: 97px;
+  margin-top: 93px;
+}
+
+.button-work ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding-left: 22px;
+  gap: 10px;
+}
+
+.modal-content .button-html {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 12px;
+  width: 53px;
+  height: 16px;
+  background: #ebebff;
+  border-radius: 8px;
+  transition: all 200ms ease-in-out;
+}
+
+.modal-content .button-css {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 12px;
+  width: 30px;
+  height: 16px;
+  background: #ebebff;
+  border-radius: 8px;
+  transition: all 200ms ease-in-out;
+}
+
+.modal-content .button-js {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  width: 60px;
+  height: 16px;
+  background: #ebebff;
+  border-radius: 8px;
+  transition: all 200ms ease-in-out;
+}
+
+.modal-see-button {
+  display: flex;
+  align-items: center;
+  margin-top: 33px;
+}
+
+#seeLiveBtn,
+#seeLiveBtn2,
+#seeLiveBtn3,
+#seeLiveBtn4 {
+  display: flex;
+  border: 1px solid #396df2;
+  height: 45px;
+  width: 150px;
+  margin-right: 140px;
+  margin-left: 25px;
+  border-radius: 6px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: white;
+  color: #396df2;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  transition: all 200ms ease-in-out;
+  gap: 10px;
+}
+
+.seeLiveIcon {
+  display: flex;
+  background-image: url(./images/Modal/Icon.png);
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+#seeSourceBtn {
+  display: flex;
+  border: 1px solid #396df2;
+  height: 45px;
+  width: 150px;
+  margin-left: -133px;
+  border-radius: 6px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: white;
+  color: #396df2;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  transition: all 200ms ease-in-out;
+  gap: 10px;
+}
+
+.seeSourceIcon {
+  display: flex;
+  background-image: url(./images/Modal/Vector.png);
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
 .button-js:hover {
   background-color: lightskyblue;
 }
@@ -515,7 +760,31 @@ a {
 }
 
 .see-project button:active {
-  background-color: rgb(48, 36, 211);
+  background-color: #396df2;
+  border: 1px solid white;
+  color: white;
+}
+
+#seeProjBtn1:hover {
+  background-color: #396df2;
+  border: 1px solid white;
+  color: white;
+}
+
+#seeProjBtn2:hover {
+  background-color: #396df2;
+  border: 1px solid white;
+  color: white;
+}
+
+#seeProjBtn3:hover {
+  background-color: #396df2;
+  border: 1px solid white;
+  color: white;
+}
+
+#seeProjBtn4:hover {
+  background-color: #396df2;
   border: 1px solid white;
   color: white;
 }
@@ -777,7 +1046,7 @@ a {
   }
 
   .nav-menu {
-    display: flex;
+    display: flex !important;
     align-items: center;
     flex-direction: row;
     background-color: white;
@@ -1031,6 +1300,36 @@ a {
 
   .see-project {
     margin-top: 18px;
+  }
+
+  .modal-content {
+    width: 900px;
+    height: 87%;
+    display: flex;
+    flex-direction: column;
+    margin: -29px 0;
+    border: 1px solid #dfe1e6;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background-color: white;
+    top: 114px;
+    gap: 5px;
+  }
+
+  .slider-modal-1 {
+    position: static;
+    margin: 9px 13px -84px 23px;
+    width: 820px;
+    height: 605px;
+    border-radius: 8px;
+    background: url(images/Modal_Desktop/Snapshoot\ Portfolio\(4\).png);
+    background-repeat: no-repeat;
+    padding: 202px 10px 143px 13px;
+  }
+
+  .desc-text-modal-1 p {
+    margin-top: 100px;
+    margin-left: -83%;
   }
 
   .slider-work-2 {
