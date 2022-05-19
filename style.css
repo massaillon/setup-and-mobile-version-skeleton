@@ -675,6 +675,7 @@ a {
   line-height: 24px;
   transition: all 200ms ease-in-out;
   gap: 10px;
+  cursor: pointer;
 }
 
 .seeLiveIcon {
@@ -683,6 +684,26 @@ a {
   background-repeat: no-repeat;
   width: 20px;
   height: 20px;
+}
+
+#seeLiveBtn:hover {
+  background-color: thistle;
+  color: #396df2;
+}
+
+#seeLiveBtn2:hover {
+  background-color: thistle;
+  color: #396df2;
+}
+
+#seeLiveBtn3:hover {
+  background-color: thistle;
+  color: #396df2;
+}
+
+#seeLiveBtn4:hover {
+  background-color: thistle;
+  color: #396df2;
 }
 
 #seeSourceBtn,
@@ -707,6 +728,7 @@ a {
   line-height: 24px;
   transition: all 200ms ease-in-out;
   gap: 10px;
+  cursor: pointer;
 }
 
 .seeSourceIcon {
@@ -717,16 +739,42 @@ a {
   height: 20px;
 }
 
+#seeSourceBtn:hover {
+  background-color: thistle;
+  color: #396df2;
+}
+
+#seeSourceBtn2:hover {
+  background-color: thistle;
+  color: #396df2;
+}
+
+#seeSourceBtn3:hover {
+  background-color: thistle;
+  color: #396df2;
+}
+
+#seeSourceBtn4:hover {
+  background-color: thistle;
+  color: #396df2;
+}
+
 .button-js:hover {
-  background-color: lightskyblue;
+  background-color: white;
+  border: 1px solid gray;
+  color: #396df2;
 }
 
 .button-html:hover {
-  background-color: lightskyblue;
+  background-color: white;
+  border: 1px solid gray;
+  color: #396df2;
 }
 
 .button-css:hover {
-  background-color: lightskyblue;
+  background-color: white;
+  border: 1px solid gray;
+  color: #396df2;
 }
 
 .button-js:active {
@@ -1386,7 +1434,7 @@ a {
     width: 820px;
     height: 605px;
     border-radius: 8px;
-    background: url(images/Modal_Desktop/Snapshoot\ Portfolio\(4\).png);
+    background: url(images/Modal_Desktop/Snapshoot\ Portfolio\(4\) .png);
     background-repeat: no-repeat;
   }
 
@@ -1396,7 +1444,7 @@ a {
     width: 820px;
     height: 605px;
     border-radius: 8px;
-    background: url(images/Modal_Desktop/Snapshoot\ Portfolio\(4\).png);
+    background: url(images/Modal_Desktop/Snapshoot-Portfolio-2.png);
     background-repeat: no-repeat;
   }
 
@@ -1406,7 +1454,7 @@ a {
     width: 820px;
     height: 605px;
     border-radius: 8px;
-    background: url(images/Modal_Desktop/Snapshoot\ Portfolio\(4\).png);
+    background: url(images/Modal_Desktop/Snapshoot-Portfolio-3.png);
     background-repeat: no-repeat;
   }
 
@@ -1416,7 +1464,7 @@ a {
     width: 820px;
     height: 605px;
     border-radius: 8px;
-    background: url(images/Modal_Desktop/Snapshoot\ Portfolio\(4\).png);
+    background: url(images/Modal_Desktop/Snapshoot-Portfolio-4.png);
     background-repeat: no-repeat;
   }
 
