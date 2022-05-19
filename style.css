@@ -1250,6 +1250,15 @@ a {
     top: 0;
   }
 
+  #main-home {
+    display: grid;
+    min-height: 100vh;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #e5e5e5;
+  }
+
   .ellipse-rectangle-6 {
     background-image: url(images/Rectangle\ 6.png);
     width: 92.67px;
