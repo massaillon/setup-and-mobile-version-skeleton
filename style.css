@@ -432,7 +432,10 @@ a {
   transition: all 200ms ease-in-out;
 }
 
-.modal {
+.modal,
+.modal2,
+.modal3,
+.modal4 {
   display: flex;
   justify-content: center;
   position: fixed;
@@ -481,7 +484,10 @@ a {
   font-size: 32px;
 }
 
-.close {
+.close,
+.close2,
+.close3,
+.close4 {
   color: rgba(103, 121, 142, 1);
   font-size: 20px;
   cursor: pointer;
@@ -531,6 +537,53 @@ a {
 
 .desc-text-modal-1 p {
   margin-top: 5px;
+  margin-left: 28px;
+}
+
+.desc-text-modal-2 p {
+  margin-top: 5px;
+  margin-left: 28px;
+}
+
+.desc-text-modal-3 p {
+  margin-top: 5px;
+  margin-left: 28px;
+}
+
+.slider-modal-2 {
+  position: static;
+  margin: 9px 13px 1px 23px;
+  width: 311px;
+  height: 220px;
+  border-radius: 8px;
+  background: url(images/Card\ Work-2.png);
+  background-repeat: no-repeat;
+}
+
+.slider-modal-3 {
+  position: static;
+  margin: 9px 13px 1px 23px;
+  width: 311px;
+  height: 220px;
+  border-radius: 8px;
+  background: url(images/Card\ Works-3.png);
+  background-repeat: no-repeat;
+}
+
+.slider-modal-4 {
+  position: static;
+  margin: 9px 13px 1px 23px;
+  width: 311px;
+  height: 220px;
+  border-radius: 8px;
+  background: url(images/Card\ Work-4.png);
+  background-repeat: no-repeat;
+}
+
+.desc-button-encaps {
+  display: flex;
+  flex-direction: column;
+  padding-top: 21px;
 }
 
 .button-work {
@@ -588,7 +641,7 @@ a {
 .modal-see-button {
   display: flex;
   align-items: center;
-  margin-top: 33px;
+  margin-top: 16px;
 }
 
 #seeLiveBtn,
@@ -624,7 +677,10 @@ a {
   height: 20px;
 }
 
-#seeSourceBtn {
+#seeSourceBtn,
+#seeSourceBtn2,
+#seeSourceBtn3,
+#seeSourceBtn4 {
   display: flex;
   border: 1px solid #396df2;
   height: 45px;
@@ -1324,12 +1380,53 @@ a {
     border-radius: 8px;
     background: url(images/Modal_Desktop/Snapshoot\ Portfolio\(4\).png);
     background-repeat: no-repeat;
-    padding: 202px 10px 143px 13px;
+  }
+
+  .desc-modal-encaps {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 57px;
+    gap: 5px;
+  }
+
+  .desc-button-encaps {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .desc-text-modal-1 {
+    position: relative;
+    align-self: center;
+    width: 313px;
+    height: 76px;
+    left: 0;
+    top: 0;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: #344563;
   }
 
   .desc-text-modal-1 p {
-    margin-top: 100px;
-    margin-left: -83%;
+    margin-top: 18px;
+    margin-left: -31%;
+  }
+
+  .button-work {
+    display: flex;
+    width: 200px;
+    margin-right: 97px;
+    margin-top: 93px;
+  }
+
+  .button-work ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding-left: 22px;
+    gap: 10px;
   }
 
   .slider-work-2 {
