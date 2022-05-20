@@ -1124,6 +1124,15 @@ a {
   color: white;
 }
 
+/* Form Error message to be displayed in case of email invalid input */
+.error-message {
+  color: red;
+  font-size: 19px;
+  font-weight: 600;
+  align-self: center;
+  z-index: 1;
+}
+
 .underline-bar-bottom {
   margin-top: 54px;
   width: 134px;

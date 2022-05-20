@@ -1,6 +1,6 @@
 ### Project Name
 
-  # Portfolio: details popup window milestone 8 
+  # Portfolio: validate contact form milestone 9 
 
 ## Built With
 
@@ -11,7 +11,7 @@
 
 ## Getting Started  
 
-  This project at deploying creating the details popup window .
+  This project aims at implementing a client-side validation of the data in the contact form before submission. .
 
   Please follow the steps below for getting started and editing the files from your local machine.
 
@@ -57,9 +57,21 @@
     
 ## Usage
 
-    In the eighth milestone of our portfolio website, we will:
+    In the nineth milestone of our portfolio website, we will:
 
-    - We will implement a popup window that includes the project details in both desktop and mobile. In order to do that, we will need to store the information about your projects in a JavaScript object.
+    - We will implement a client-side validation of the data in the contact form before submission.
+
+
+    We need to implement a simple validation:
+
+          - The content of the email field has to be in lower case.
+
+    We should implement the following interactions:
+
+          - When the user submits the form, you check if the email is in lower case.
+          - If the validation is OK, the form is sent.
+          - If the validation is not OK, you show an error message to the user near the submit button informing them of the error and the form is not sent.
+
 
 
 
@@ -69,11 +81,17 @@
     LinkedIn: Massaillon Silue
     Twitter: Massaillon Silue
 
-      👤 **Afolabi Akorede**
+    **collaborator
 
-         - GitHub: [@brainconnect93](https://github.com/brainconnect93)
-         - Twitter: [@brainconnect0](https://twitter.com/brainconnect0)
-         - LinkedIn: [Afolabi Akorede](https://linkedin.com/in/brainconnect93)
+    ## Author
+👤 **Afolabi Akorede**
+
+- GitHub: [@brainconnect93](https://github.com/brainconnect93)
+- Twitter: [@brainconnect0](https://twitter.com/brainconnect0)
+- LinkedIn: [Afolabi Akorede](https://linkedin.com/in/brainconnect93)
+
+
+      
 
 
 Link to the Live website
@@ -81,9 +99,6 @@ Link to the Live website
      https://massaillon.github.io/setup-and-mobile-version-skeleton/
 
 🤝 Contributing
-
-Thanks to Afolabi Akorede for contributing on my project
-
   
 Contributions, issues, and feature requests are welcome!
 
