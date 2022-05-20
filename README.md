@@ -1,6 +1,6 @@
 ### Project Name
 
-  # Portfolio: details popup window milestone 8 
+  # Portfolio: validate contact form milestone 9 
 
 ## Built With
 
@@ -11,7 +11,7 @@
 
 ## Getting Started  
 
-  This project at deploying creating the details popup window .
+  This project aims at implementing a client-side validation of the data in the contact form before submission. .
 
   Please follow the steps below for getting started and editing the files from your local machine.
 
@@ -57,9 +57,9 @@
     
 ## Usage
 
-    In the eighth milestone of our portfolio website, we will:
+    In the nineth milestone of our portfolio website, we will:
 
-    - We will implement a popup window that includes the project details in both desktop and mobile. In order to do that, we will need to store the information about your projects in a JavaScript object.
+    - We will implement a client-side validation of the data in the contact form before submission..
 
 
 
