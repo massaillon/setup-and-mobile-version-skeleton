@@ -98,3 +98,20 @@ modalWindow4.addEventListener('click', (d) => {
     modalPopup4();
   }
 });
+
+/* Form Validation Code */
+
+const form = document.getElementById('form-Cont');
+const email = document.getElementById('email');
+const errorMessage = document.querySelector('.error-message');
+/* the below function will check if the email entered is fully lowerCase */
+function emailCheckLowerCase(e) {
+  if (email.value !== email.value.toLowerCase()) {
+    errorMessage.classList.remove('hide');
+    e.preventDefault();
+  } else {
+    errorMessage.classList.add('hide');
+  }
+}
+form.addEventListener('change', emailCheckLowerCase);
+form.addEventListener('submit', emailCheckLowerCase);

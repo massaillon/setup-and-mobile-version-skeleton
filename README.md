@@ -59,7 +59,19 @@
 
     In the nineth milestone of our portfolio website, we will:
 
-    - We will implement a client-side validation of the data in the contact form before submission..
+    - We will implement a client-side validation of the data in the contact form before submission.
+
+
+    We need to implement a simple validation:
+
+          - The content of the email field has to be in lower case.
+
+    We should implement the following interactions:
+
+          - When the user submits the form, you check if the email is in lower case.
+          - If the validation is OK, the form is sent.
+          - If the validation is not OK, you show an error message to the user near the submit button informing them of the error and the form is not sent.
+
 
 
 
@@ -69,11 +81,7 @@
     LinkedIn: Massaillon Silue
     Twitter: Massaillon Silue
 
-      👤 **Afolabi Akorede**
-
-         - GitHub: [@brainconnect93](https://github.com/brainconnect93)
-         - Twitter: [@brainconnect0](https://twitter.com/brainconnect0)
-         - LinkedIn: [Afolabi Akorede](https://linkedin.com/in/brainconnect93)
+      
 
 
 Link to the Live website
@@ -81,9 +89,6 @@ Link to the Live website
      https://massaillon.github.io/setup-and-mobile-version-skeleton/
 
 🤝 Contributing
-
-Thanks to Afolabi Akorede for contributing on my project
-
   
 Contributions, issues, and feature requests are welcome!
 
