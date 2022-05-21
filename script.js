@@ -30,7 +30,7 @@ hamburger.addEventListener('click', mobileMenu);
 document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click', () => {
   hamburger.classList.remove('active');
   navMenu.classList.add('hide');
-  hamburger.toggle('bar')
+  hamburger.toggle('bar active');
 }));
 
 /* the function below opens and closes the modal popup window on click */
