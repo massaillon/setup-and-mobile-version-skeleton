@@ -115,3 +115,29 @@ function emailCheckLowerCase(e) {
 }
 form.addEventListener('change', emailCheckLowerCase);
 form.addEventListener('submit', emailCheckLowerCase);
+
+/* Local Storage using Objects */
+
+const inputName = document.getElementById('name');
+const inputEmail = document.getElementById('email');
+const inputMessage = document.getElementById('message');
+// Create an onsubmit event listener for the form
+form.onsubmit = () => {
+  // Capture the data entered by the user in the form
+  // Store it inside an object
+  const formElement = {
+    username: inputName.value,
+    email: inputEmail.value,
+    userTextInput: inputMessage.value,
+  };
+  // Store the object to the local storage
+  localStorage.setItem('storelocal', JSON.stringify(formElement));
+};
+// Get the object to the local storage
+const localData = JSON.parse(localStorage.getItem('storelocal'));
+
+// put data into the form
+
+inputName.value = localData.username;
+inputEmail.value = localData.email;
+inputMessage.value = localData.userTextInput;
