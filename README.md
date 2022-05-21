@@ -1,6 +1,6 @@
 ### Project Name
 
-  # Portfolio: validate contact form milestone 9 
+  # Portfolio: validate contact form milestone 10 final 
 
 ## Built With
 
@@ -11,7 +11,7 @@
 
 ## Getting Started  
 
-  This project aims at implementing a client-side validation of the data in the contact form before submission. .
+  This project aims at saving the form data in the local storage of the browser. That way when the user reloads the page the data they filled out in the form will be preserved.
 
   Please follow the steps below for getting started and editing the files from your local machine.
 
@@ -57,21 +57,16 @@
     
 ## Usage
 
-    In the nineth milestone of our portfolio website, we will:
+    In the final milestone of our portfolio website, we will:
 
-    - We will implement a client-side validation of the data in the contact form before submission.
+    - We will implement the following interactions:
+        
+        When the user changes the content of any input field, the data is saved to the local storage.
 
+        When the user loads the page, if there is any data in the local storage the input fields are pre-filled with this data.
 
-    We need to implement a simple validation:
-
-          - The content of the email field has to be in lower case.
-
-    We should implement the following interactions:
-
-          - When the user submits the form, you check if the email is in lower case.
-          - If the validation is OK, the form is sent.
-          - If the validation is not OK, you show an error message to the user near the submit button informing them of the error and the form is not sent.
-
+    - We will use the following data model:
+        You must create a single JavaScript object with all the data from the entire form and save it in local storage. Do not create one local storage entry per input field.
 
 
 
@@ -92,14 +87,20 @@
 
 
       
+ ##collaborator
+ 
+👤 **Afolabi Akorede**
 
+- GitHub: [@brainconnect93](https://github.com/brainconnect93)
+- Twitter: [@brainconnect0](https://twitter.com/brainconnect0)
+- LinkedIn: [Afolabi Akorede](https://linkedin.com/in/brainconnect93)
 
 Link to the Live website
 
      https://massaillon.github.io/setup-and-mobile-version-skeleton/
 
 🤝 Contributing
-  
+
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the issues page.
