@@ -77,7 +77,13 @@
     Twitter: Massaillon Silue
 
       
+ ##collaborator
+ 
+👤 **Afolabi Akorede**
 
+- GitHub: [@brainconnect93](https://github.com/brainconnect93)
+- Twitter: [@brainconnect0](https://twitter.com/brainconnect0)
+- LinkedIn: [Afolabi Akorede](https://linkedin.com/in/brainconnect93)
 
 Link to the Live website
 
